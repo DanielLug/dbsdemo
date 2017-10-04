@@ -11,7 +11,7 @@ $movies = array();
 
 for ($i =0; $i < 10; $i++){
   $movie = new Movie();
-  $movie->title = "title $i";
+  $movie->movieTitle = "title $i";
   $movie -> rating = "rating $i";
   $movie -> director ="director $i";
   
