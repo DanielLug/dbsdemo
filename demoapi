@@ -11,5 +11,5 @@ header ('Content-Type: application/json');
 /* Create a variable to hold zour JSON data*/
 $jsonOutput = json_encode($items);
 
-/* Output the JSON data*/
+/* Output the JSON data */
 echo $jsonOutput;
