@@ -20,7 +20,7 @@
 $(function() {
   var url = "https://dbsdemo.herokuapp.com/moviesapi.php";
  
-$('#message').html("Jquery is loaded with real movie data - version 3 - daniel");
+$('#message').html("Jquery is loaded with real movie data - version 4 - daniel");
   
   $.getJSON(url, function (jsonData) {
   
@@ -38,6 +38,10 @@ $('#message').html("Jquery is loaded with real movie data - version 3 - daniel")
       
             html+= "<td>";
             html+= jsonData[i].rating;
+            html+= "</td>";
+      
+            html=+"<td>";
+            html+= jsonData[i].runTime;
             html+= "</td>";
       
             html+= "</tr>";
